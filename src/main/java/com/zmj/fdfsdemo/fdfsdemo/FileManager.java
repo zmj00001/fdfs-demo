@@ -340,8 +340,8 @@ public class FileManager {
      * @param fileName
      * @return
      */
-    public static String fileName(String fileName) {
-        return fileName.substring(fileName.lastIndexOf("/") + 1 ,fileName.length());
+    public static String getFileName(String fileName) {
+        return fileName.substring(fileName.lastIndexOf("/") + 1);
     }
 
     /**
